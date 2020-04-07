@@ -56,9 +56,7 @@ In the terminal run:
 By default, the command deploys the app.yaml configuration file from the current directory. If you're running the command from a directory that does not contain you app's app.yaml then:
 
 ```{bash}
-
   gcloud app deploy [CONFIGURATION_FILES]
-  
 ```
 Replace [CONFIGURATION_FILES] with the path to one or more configuration files. Use a single white space to separate pathnames.
 
