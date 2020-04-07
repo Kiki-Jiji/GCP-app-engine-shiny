@@ -50,9 +50,7 @@ You will need:
 In the terminal run:
 
 ```{bash}
-
   gcloud app deploy
-
 ```
 
 By default, the command deploys the app.yaml configuration file from the current directory. If you're running the command from a directory that does not contain you app's app.yaml then:
@@ -60,7 +58,7 @@ By default, the command deploys the app.yaml configuration file from the current
 ```{bash}
 
   gcloud app deploy [CONFIGURATION_FILES]
-
+  
 ```
 Replace [CONFIGURATION_FILES] with the path to one or more configuration files. Use a single white space to separate pathnames.
 
@@ -72,7 +70,7 @@ This will then build... slowly...
 ![](https://media.makeameme.org/created/The-slow-service.jpg)
 
 But after a few minutes the app will be deployed! Run:
-```bash
+```{bash}
   gcloud app browse
 ```
 You should get the message (if the project is called shiny-test),
