@@ -11,7 +11,7 @@ To run in a docker container you need to build and then start the container.
 
 `docker run -p 8000:8080 shiny`
 
-The above example exposes port 8080 in the container on port 8000 in the host, so you will access the application on 8000, even though internally the container is using port 80.
+The above example exposes port 8080 in the container on port 8000 in the host, so you will access the application on 8000, even though internally the container is using port 8080.
 
 ## GCP App engine
 App Engine doesn't offer a default R environment so you will need to define your own custom runtime. You can see the GCP App Engine [Building Custom Runtimes](https://cloud.google.com/appengine/docs/flexible/custom-runtimes/build?hl=en_US#listening_to_port_8080) documentation for more details.
