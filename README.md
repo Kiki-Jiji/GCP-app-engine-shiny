@@ -33,7 +33,7 @@ Importantly you will need to:
 ## Deployment Steps
 ### 1. Docker: With this repository you should be able to clone, build and run locally.
 
-`git clone github::`
+`git clone https://github.com/best-practice-and-impact/GCP-shiny.git`
 
 `docker build -t shiny .`
 
